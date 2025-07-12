@@ -13,7 +13,7 @@ const Client = () => {
     <div className='flex flex-col items-center py-10'>
         <h1 className="text-5xl font-semibold text-dgrey">Our Clients</h1>
         <p className="text-sm font-normal text-dgrey">We have been working with some fortune 500+ companies.</p>
-        <div className="grid grid-cols-3 md:grid-cols-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
             {logo}
         </div>
     </div>
